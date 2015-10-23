@@ -1,0 +1,40 @@
+{
+  "name": "infodumper",
+  "version": "0.0.0",
+  "description": "Web service that dumps information about itself",
+  "main": "index.js",
+  "scripts": {
+    "test" : "node_modules/grunt-cafe-mocha/node_modules/mocha/bin/mocha --ui bdd --reporter spec --require should test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleen/infodumper.git"
+  },
+  "keywords": [
+    "headers",
+    "ip",
+    "phpinfo"
+  ],
+  "author": {
+    "name" : "Tom Leen",
+    "email" : "tl@thomasleen.com",
+    "url" : "http://www.thomasleen.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleen/infodumper/issues"
+  },
+  "homepage": "https://github.com/tleen/infodumper#readme",
+    "devDependencies" : {
+    "grunt" : "0.4.5",
+    "grunt-cafe-mocha" : "0.1.13",
+    "grunt-contrib-jshint": "0.11.3",
+    "should": "7.1.1",
+    "supertest": "1.1.0"
+  },
+  "dependencies" : {
+    "express": "4.13.3",
+    "moment": "2.10.6",
+    "minimist": "1.2.0"
+  }
+}
