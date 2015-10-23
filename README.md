@@ -1,2 +1,2 @@
 # infodumper
-Web service that dumps information about itself
+Web service that dumps information about itself.
